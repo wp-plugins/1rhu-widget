@@ -33,8 +33,8 @@ function wd1rhu_Action()
  $wp_1rhu_plugin_url = trailingslashit( WP_PLUGIN_URL ) ;
 if (!is_admin())
 	{
-	 wp_enqueue_script('1rhu', $wp_1rhu_plugin_url.'1rhu/1r_hu_func.js');
-	 wp_enqueue_script('1rhushorten', $wp_1rhu_plugin_url.'1rhu/1r_shorten.js');
+	 wp_enqueue_script('1rhu', $wp_1rhu_plugin_url.'1rhu-widget/1r_hu_func.js');
+	 wp_enqueue_script('1rhushorten', $wp_1rhu_plugin_url.'1rhu-widget/1r_shorten.js');
 	}
 }
 
