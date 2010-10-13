@@ -11,11 +11,12 @@ if (window.XMLHttpRequest){           // code for IE7+, Firefox, Chrome, Opera, 
    	   	   alert("Error creating the XMLHttpRequest object.");
    	   } else {
    	   	   try{
-   	   	   	   xmlhttp.open("POST", location.href+'/wp-content/plugins/1rhu/public_api.php?url='+longlink, true);
+   	   	   	   xmlhttp.open("POST", location.href+'/wp-content/plugins/1rhu-widget/public_api.php?url='+longlink, true);
    	   	   	   xmlhttp.onreadystatechange = function(){
    	   	   	   	   if (xmlhttp.readyState === 4 && xmlhttp.status==200){
    	   	   	   	   	   link = xmlhttp.responseText;
-   	   	  	  	   elem.value=link;
+   	   	  	  	   
+elem.value=link;
    	   	   	   	   }
    	   	   	  }
    	   	   	   	   
