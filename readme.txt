@@ -16,7 +16,12 @@ http://1r.hu - Egy rövidítő.
 With the help of the plugin you can help anyone create a short link using the services of 1r.hu. The plugin creates a widget, which can be placed in 
 any sidebar. 
 
-*IMPORTANT: Currently only Hungarian language is supported. We'll have more languages soon.
+Someone enters a long URL in to the input box, hits enter, and the short link will appear. This can be copied and pasted anywhere.
+
+*IMPORTANT: 
+
+1. You need to have CURL installed on your hosting for this to work.
+2. Currently only Hungarian language is supported. We'll have more languages soon.
 
 == Installation ==
 
