@@ -34,3 +34,8 @@ Someone enters a long URL in to the input box, hits enter, and the short link wi
 == Requierments ==
 
 You need to have CURL installed. Talk to your hosting company if they provide such a feature.
+
+== Changelog ==
+
+= 0.2 =
+Updated javascript error.

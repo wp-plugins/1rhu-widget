@@ -4,7 +4,7 @@ Plugin Name: 1r.hu Widget
 Plugin URI: http://1r.hu
 Description: Gyors rövidítési lehetőség wordpress blogodon belül.
 Author: Webdew
-Version: 0.1
+Version: 0.2
 Author URI: http://webdew.hu
 */
 ?>
